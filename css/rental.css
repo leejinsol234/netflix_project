@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    outline: none;
+}
+
+html {
+    font-size: 16px;}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 1200px; 
+    overflow: auto;
+}
+
+ul,ol {
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+}
+
+dl,dt,dd {
+    margin: 0; 
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+#header {
+    display: flex;
+}
+
+.header_logo_search {
+    height: 150px;
+    margin: 0 auto;
+}
+
+.inner {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: 35px;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.search_bar {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 14%;
+}
+
+.search_bar>img {
+    position : absolute;
+    width: 20px;
+    top: 12px;
+    right: 12px;
+    margin: 0;
+}
+
+#text_search {
+    width: 400px;
+    height: 40px;
+    border: red solid 1.5px;
+    border-radius: 5px;
+    outline: none;
+    color: red;
+    font-size: 16px;
+}
+
+.items {
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.icon {
+    width: 50px;
+    margin: 0 5px;
+}
+
+/* nav */
+.nav {
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+}
+
+.nav_menu {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0px;
+}
+
+.nav_menu li {
+    padding: 8px 80px;
+    text-decoration: none;
+}
+
+.nav_menu li a {
+    color: red;
+}
+
+/* 영화 소개 및 대여*/
+#item_wrap {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#item_poster {
+    width: 300px;
+}
+
+#poster01 {
+    width: 300px;
+}
+
+#item_info {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#info_title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#info_title_eng {
+    margin-bottom: 180px;
+}
+
+dt {
+    margin-top: 5px;
+}
+
+.item_rental {
+    width: 300px;
+    position: relative;
+    display: flex;
+}
+
+#rental_wrap {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.datePicker, #rental_btn {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.item_rental .datePicker p,input {
+    display: inline-block;
+}
+
+.item_rental span {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.item_rental #rental_btn input {
+    width: 300px;
+    height: 50px;
+    background: red;
+    color: #FFF;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+#item_intro {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#item_intro p {
+    font-size: 0.9rem;
+}
